@@ -1,4 +1,4 @@
-movie-assigment
+movie-trailers
 
 Finds movie information on imdb and youtube and presents the trailer.
 

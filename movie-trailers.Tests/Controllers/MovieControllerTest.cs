@@ -14,7 +14,7 @@ namespace movie_trailers.Tests.Controllers
 
             ViewResult result = _moviecontroller.Index() as ViewResult;
 
-          
+            Assert.IsNotNull(result);
         }
 
     }

@@ -1,7 +1,7 @@
 ﻿using System.Net;
-using Newtonsoft.Json;
 using movie_trailers.Interfaces;
 using movie_trailers.Models;
+using Newtonsoft.Json;
 using System.Web.Mvc;
 
 namespace movie_trailers.Custom_Apis
@@ -10,13 +10,7 @@ namespace movie_trailers.Custom_Apis
     {
         public Movie GetMovieInformation(string search)
         {
-            Movie _movie;
-            //using (WebClient wc = new WebClient())
-            //{
-            //    var json = wc.DownloadString("http://www.omdbapi.com/?t=" + search + "&y=&plot=short&r=json");
-            //    _movie = JsonConvert.DeserializeObject<Movie>(json);
-            //}
-            _movie = JsonConvert.DeserializeObject<Movie>(GetMovieByTitle(search).Data.ToString());
+            Movie _movie = JsonConvert.DeserializeObject<Movie>(GetMovieByTitle(search).Data.ToString()); 
             return _movie;
         }
 
@@ -30,5 +24,18 @@ namespace movie_trailers.Custom_Apis
             }
             return _jsonresult;
         }
+
+        private JsonResult GetMovieById(string movieId)
+        {
+            JsonResult _jsonresult = new JsonResult();
+            using (WebClient wc = new WebClient())
+            {
+                var json = wc.DownloadString("http://www.omdbapi.com/?=" + movieId + "&y=&plot=short&r=json");
+                _jsonresult.Data = json;
+            }
+            return _jsonresult;
+        }
+
+        
     }
 }

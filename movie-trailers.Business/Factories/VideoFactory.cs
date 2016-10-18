@@ -1,4 +1,4 @@
-﻿using movie_trailers.Custom_Apis;
+﻿using movie_trailers.DAL.Services;
 using movie_trailers.Interfaces;
 
 namespace movie_trailers
@@ -16,11 +16,11 @@ namespace movie_trailers
             switch (type)
             {
                 case VideoTypes.Youtube:
-                    return new YouTubeApi();
+                    return new YoutubeTrailerService();
                 case VideoTypes.Vimeo:
-                    return new VimeoApi();
+                    return new VimeoTrailerService();
                 default:
-                    return new YouTubeApi();
+                    return new YoutubeTrailerService();
             }
         }
 

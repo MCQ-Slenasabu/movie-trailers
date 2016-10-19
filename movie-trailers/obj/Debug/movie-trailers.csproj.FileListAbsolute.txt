@@ -42,7 +42,6 @@ C:\projects\github\movie-trailers\movie-trailers\bin\Microsoft.Owin.Security.Mic
 C:\projects\github\movie-trailers\movie-trailers\bin\Microsoft.Owin.Security.OAuth.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\Microsoft.Owin.Security.Twitter.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\Microsoft.Web.Infrastructure.dll
-C:\projects\github\movie-trailers\movie-trailers\bin\movie-trailers.Business.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\movie-trailers.DAL.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\Newtonsoft.Json.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\Owin.dll
@@ -57,7 +56,6 @@ C:\projects\github\movie-trailers\movie-trailers\bin\WebGrease.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\Zlib.Portable.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\DM.MovieApi.dll
 C:\projects\github\movie-trailers\movie-trailers\bin\Google.Apis.YouTube.v3.dll
-C:\projects\github\movie-trailers\movie-trailers\bin\movie-trailers.Business.pdb
 C:\projects\github\movie-trailers\movie-trailers\bin\movie-trailers.DAL.pdb
 C:\projects\github\movie-trailers\movie-trailers\bin\Google.Apis.pdb
 C:\projects\github\movie-trailers\movie-trailers\bin\Google.Apis.xml
@@ -103,3 +101,5 @@ C:\projects\github\movie-trailers\movie-trailers\bin\Google.Apis.YouTube.v3.xml
 C:\projects\github\movie-trailers\movie-trailers\obj\Debug\movie-trailers.csprojResolveAssemblyReference.cache
 C:\projects\github\movie-trailers\movie-trailers\obj\Debug\movie-trailers.dll
 C:\projects\github\movie-trailers\movie-trailers\obj\Debug\movie-trailers.pdb
+C:\projects\github\movie-trailers\movie-trailers\bin\movie-trailers.BLL.dll
+C:\projects\github\movie-trailers\movie-trailers\bin\movie-trailers.BLL.pdb

@@ -32,7 +32,6 @@ C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.Owin.
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Owin.dll
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\movie-trailers.Business.dll
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\movie-trailers.DAL.dll
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\EntityFramework.dll
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
@@ -55,7 +54,6 @@ C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.AspNe
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.Owin.Security.xml
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\movie-trailers.Business.pdb
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\movie-trailers.DAL.pdb
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\EntityFramework.xml
 C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
@@ -70,3 +68,5 @@ C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\Google.Apis.Cor
 C:\projects\github\movie-trailers\movie-trailers.Tests\obj\Debug\movie-trailers.Tests.csprojResolveAssemblyReference.cache
 C:\projects\github\movie-trailers\movie-trailers.Tests\obj\Debug\movie-trailers.Tests.dll
 C:\projects\github\movie-trailers\movie-trailers.Tests\obj\Debug\movie-trailers.Tests.pdb
+C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\movie-trailers.BLL.dll
+C:\projects\github\movie-trailers\movie-trailers.Tests\bin\Debug\movie-trailers.BLL.pdb

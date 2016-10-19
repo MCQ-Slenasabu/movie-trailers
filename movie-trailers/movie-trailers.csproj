@@ -315,9 +315,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\movie-trailers.Business\movie-trailers.Business.csproj">
-      <Project>{8f14ef54-a425-40e2-8074-c72968e59107}</Project>
-      <Name>movie-trailers.Business</Name>
+    <ProjectReference Include="..\movie-trailers.BLL\movie-trailers.BLL.csproj">
+      <Project>{bb534e1b-89b3-4a17-b4b3-d264a0754561}</Project>
+      <Name>movie-trailers.BLL</Name>
     </ProjectReference>
     <ProjectReference Include="..\movie-trailers.DAL\movie-trailers.DAL.csproj">
       <Project>{471473BD-590B-4514-8199-5254F784EB0C}</Project>

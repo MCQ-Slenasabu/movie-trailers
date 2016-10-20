@@ -1,16 +1,16 @@
-﻿using System.Threading.Tasks;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using DM.MovieApi;
-using DM.MovieApi.MovieDb.Movies;
 using DM.MovieApi.ApiResponse;
+using DM.MovieApi.MovieDb.Movies;
 
 /* TheMovieDbWrapper is a C# wrapper for themoviedb.org API.
 
 A nuget package is available directly through Visual Studio: https://www.nuget.org/packages/TheMovieDbWrapper/ */
 
 
-namespace movie_trailers.Custom_Apis
+namespace movie_trailers.DAL.Custom_Apis
 {
     //At the moment we're only using this Wrapper for suggestions for my personal reasons :). 
     public class TheMovieDbApi 

@@ -10,7 +10,7 @@ namespace movie_trailers.Controllers
 {
     public class MovieController : Controller
     {
-        private ITrailerService _trailerservice;
+        private readonly ITrailerService _trailerservice;  
 
         public MovieController(ITrailerService trailerService)
         {

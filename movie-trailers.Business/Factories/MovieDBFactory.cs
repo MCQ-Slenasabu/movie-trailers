@@ -1,4 +1,6 @@
-﻿using movie_trailers.Custom_Apis;
+﻿
+
+using movie_trailers.DAL.Services;
 using movie_trailers.Interfaces;
 
 namespace movie_trailers
@@ -16,11 +18,11 @@ namespace movie_trailers
             switch (type)
             {
                 case MovieDBTypes.Opendb:
-                    return new OpendbApi();
+                    return new OpenDBService();
                 case MovieDBTypes.Rottendb:
-                    return new RottenApi();
+                    return new RottenTrailerService();
                 default:
-                    return new OpendbApi();
+                    return new OpenDBService();
             }
         }
     }

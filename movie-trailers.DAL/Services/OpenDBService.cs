@@ -1,14 +1,14 @@
 ﻿using DM.MovieApi.MovieDb.Movies;
-using movie_trailers.Interfaces;
 using Newtonsoft.Json;
 using System.Net;
 using System.Web.Mvc;
 using movie_trailers.Models;
 using System;
+using movie_trailers.DAL.Interfaces;
 
 namespace movie_trailers.DAL.Services
 {
-    public class OpenDBService : IMovie
+    public class OpenDbService : IMovie
     {
         Models.Movie _movie;
         Models.Movie IMovie.GetMovieInformation(string search)

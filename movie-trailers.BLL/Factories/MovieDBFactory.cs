@@ -1,5 +1,5 @@
-﻿using movie_trailers.DAL.Services;
-using movie_trailers.Interfaces;
+﻿using movie_trailers.DAL.Interfaces;
+using movie_trailers.DAL.Services;
 
 namespace movie_trailers
 {
@@ -16,11 +16,11 @@ namespace movie_trailers
             switch (type)
             {
                 case MovieDBTypes.Opendb:
-                    return new OpenDBService();
+                    return new OpenDbService();
                 case MovieDBTypes.Rottendb:
                     return new RottenTrailerService();
                 default:
-                    return new OpenDBService();
+                    return new OpenDbService();
             }
         }
     }

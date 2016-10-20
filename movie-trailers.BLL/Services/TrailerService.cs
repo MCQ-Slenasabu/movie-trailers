@@ -1,4 +1,4 @@
-﻿using movie_trailers.Interfaces;
+﻿using movie_trailers.DAL.Interfaces;
 using movie_trailers.Models;
 
 namespace movie_trailers.BLL.Services

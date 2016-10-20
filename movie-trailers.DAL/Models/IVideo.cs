@@ -1,4 +1,4 @@
-﻿namespace movie_trailers.Interfaces
+﻿namespace movie_trailers.DAL.Interfaces
 {
     public interface IVideo
     {

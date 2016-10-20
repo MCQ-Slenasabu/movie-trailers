@@ -1,5 +1,5 @@
-﻿using movie_trailers.DAL.Services;
-using movie_trailers.Interfaces;
+﻿using movie_trailers.DAL.Interfaces;
+using movie_trailers.DAL.Services;
 
 namespace movie_trailers
 {

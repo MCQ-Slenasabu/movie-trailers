@@ -1,10 +1,10 @@
-﻿using movie_trailers.Custom_Apis;
-using movie_trailers.Models;
+﻿using movie_trailers.Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 using movie_trailers.BLL.Services;
+using movie_trailers.DAL.Custom_Apis;
 
 namespace movie_trailers.Controllers
 {

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie-trailers", "movie-tra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie-trailers.Tests", "movie-trailers.Tests\movie-trailers.Tests.csproj", "{DA888D95-4DEB-46A3-B8B1-761CA322DC24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie-trailers.Business", "movie-trailers.Business\movie-trailers.Business.csproj", "{8F14EF54-A425-40E2-8074-C72968E59107}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie-trailers.DAL", "movie-trailers.DAL\movie-trailers.DAL.csproj", "{471473BD-590B-4514-8199-5254F784EB0C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "movie-trailers.BLL", "movie-trailers.BLL\movie-trailers.BLL.csproj", "{BB534E1B-89B3-4A17-B4B3-D264A0754561}"
@@ -27,10 +25,6 @@ Global
 		{DA888D95-4DEB-46A3-B8B1-761CA322DC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA888D95-4DEB-46A3-B8B1-761CA322DC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA888D95-4DEB-46A3-B8B1-761CA322DC24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8F14EF54-A425-40E2-8074-C72968E59107}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8F14EF54-A425-40E2-8074-C72968E59107}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8F14EF54-A425-40E2-8074-C72968E59107}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8F14EF54-A425-40E2-8074-C72968E59107}.Release|Any CPU.Build.0 = Release|Any CPU
 		{471473BD-590B-4514-8199-5254F784EB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{471473BD-590B-4514-8199-5254F784EB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471473BD-590B-4514-8199-5254F784EB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU

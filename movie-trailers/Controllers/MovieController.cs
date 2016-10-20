@@ -4,16 +4,17 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using movie_trailers.BLL.Services;
 
 namespace movie_trailers.Controllers
 {
     public class MovieController : Controller
     {
-        TrailerService _trailerservice;
+        private ITrailerService _trailerservice;
 
-        public MovieController()
+        public MovieController(ITrailerService trailerService)
         {
-            _trailerservice = new TrailerService();
+            this._trailerservice = trailerService;
         }
 
         public ActionResult Index(string query = "newest trailer")
